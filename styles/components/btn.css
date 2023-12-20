@@ -1,0 +1,26 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 20px;
+    box-shadow: rgba(109, 67, 4, 0.24) 0px 3px 8px;
+}
+
+.elevated {
+    background-color: var(--cor_laranja_01);
+    color: white;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.btn:hover {
+    transition: all .2s ease-in;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+
+.doe{
+    color: var(--cor_verde_01);
+    border-radius: 50px;
+    font-weight: 700;
+    border: 2px solid var(--cor_verde_01);
+}

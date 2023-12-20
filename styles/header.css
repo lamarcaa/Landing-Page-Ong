@@ -1,0 +1,31 @@
+header, header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header {
+    width: 80vw;
+    height: 20vh;
+    font-weight: 500;
+    position: absolute;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+header a {
+    color: var(--cor_preto_01);
+    padding: 10px;
+}
+
+header nav ul li a:hover {
+    color: var(--cor_laranja_01);
+    border-bottom: 3px solid var(--cor_laranja_01);
+    transition: all .2s ease-out;
+    font-weight: 700;
+}
+
+header nav ul {
+    gap: 30px;
+}

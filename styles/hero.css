@@ -1,0 +1,52 @@
+.hero {
+    padding-top: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+    z-index: 999;
+}
+
+.hero-text>h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--cor_preto_01);
+
+}
+
+.hero-text>p {
+    font-size: 1.2rem;
+    color: var(--cor_preto_02);
+}
+
+.container-info {
+    width: 50vw;
+    height: 100vh;
+}
+
+.hero-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns {
+    display: flex;
+    gap: 20px;
+}
+
+.pata{
+    position: absolute;
+    top: 32vh;
+    z-index: -999;
+    transform: rotate(-30deg); 
+    left: 7vw;
+    opacity: 80%;
+}
